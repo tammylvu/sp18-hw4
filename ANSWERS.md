@@ -2,7 +2,7 @@
 
 1. What is the difference between `new` and `create` for a model?
 
-new will create a blank object while create will also take in parameters
+new will render a form and create will actually make it 
 
 2. What command followed after with `Cat.new` will emulate the same behavior as `Cat.create`?
 
