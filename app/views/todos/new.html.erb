@@ -1,0 +1,9 @@
+<%= form_for @todo do |f| %>
+  <%= f.label :task %>:
+  <%= f.text_field :tasks %><br />
+
+  <%= f.label :finished %>:
+  <%= check_box :todo, :finished, {}, 'true', 'false' %><br />
+
+  <%= f.submit %>
+<% end %>

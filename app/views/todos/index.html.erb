@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th>Todos</th>
+    <th>All Todos</th>
+  </tr>
+ 
+  <% @todo.each do |t| %>
+    <tr>
+      <td><%= t.tasks %></td>
+    </tr>
+    <tr>
+      <td><%= t.finished %></td>
+    </tr>
+  <% end %>
+</table>
